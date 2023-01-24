@@ -26,3 +26,9 @@ $linkDOM.setAttribute("data-description", "Modelo de Objeto del Documento");
 console.log($linkDOM.getAttribute("data-description"));
 $linkDOM.dataset.description = "Soy un programador bobolón";
 console.log($linkDOM.getAttribute("data-description"));
+
+console.log($linkDOM.hasAttribute("data-id"));
+$linkDOM.removeAttribute("data-id")
+console.log($linkDOM.hasAttribute("data-id"));
+
+
