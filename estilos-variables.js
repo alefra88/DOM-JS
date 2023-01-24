@@ -35,4 +35,4 @@ $html.style.setProperty("--dark-color", "#f1a");
 varDarkColor = getComputedStyle($html).getPropertyValue("--dark-color");
 
 //aplicamos la variable modificada al estilo
-$body.style.setProperty("background-color", varDarkColor);
+// $body.style.setProperty("background-color", varDarkColor);
