@@ -1,7 +1,13 @@
+/* formateando estilo */
 * {
     padding: 0;
     padding: 0;
     box-sizing: border-box;
+}
+/* variable css */
+:root{
+--yellow-color:#f7fd1e
+--dark-color:#222;
 }
 
 body {
