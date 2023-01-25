@@ -1,29 +1,28 @@
-const $figure = document.createElement("figure"),
-    $img = document.createElement("img"),
-    $figcaption = document.createElement("figcaption"),
-    $figcaptionText = document.createTextNode("animals"),
-    $cards = document.querySelector(".cards");
+// const $figure = document.createElement("figure"),
+//     $img = document.createElement("img"),
+//     $figcaption = document.createElement("figcaption"),
+//     $figcaptionText = document.createTextNode("animals"),
+//     $cards = document.querySelector(".cards");
 
-$img.setAttribute("src", "https://placeimg.com/200/200/animals");
-$img.setAttribute("alt", "animals");
-$figure.classList.add("card");
-
-$figcaption.appendChild($figcaptionText);
-$figure.appendChild($img);
-$figure.appendChild($figcaption);
-$cards.appendChild($figure);
+// $img.setAttribute("src", "https://placeimg.com/200/200/animals");
+// $img.setAttribute("alt", "animals");
+// $figure.classList.add("card");
+// $figcaption.appendChild($figcaptionText);
+// $figure.appendChild($img);
+// $figure.appendChild($figcaption);
+// $cards.appendChild($figure);
 
 /////////////////////////////////////////////////////////////////////////
 // segunda forma de crear elementos dinamicos, pero no recomendable porque no se reconoce como nodo
 
-$figure2 = document.createElement("figure");
-$figure2.innerHTML = `
-<img src="https://placeimg.com/200/200/nature" alt="nature" />
-<figcaption>Nature</figcaption>
-`;
+// $figure2 = document.createElement("figure");
+// $figure2.innerHTML = `
+// <img src="https://placeimg.com/200/200/nature" alt="nature" />
+// <figcaption>Nature</figcaption>
+// `;
 
-$figure2.classList.add("card");
-$cards.appendChild($figure2);
+// $figure2.classList.add("card");
+// $cards.appendChild($figure2);
 
 ///////////////////////////////////////////////////////////////////////////
 // creando lista dinamica
