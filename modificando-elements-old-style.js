@@ -7,7 +7,7 @@ $newCard.innerHTML = `
 <figcaption>Any</figcaption>
 `;
 
-//$newCard.classList.add("card");
+$newCard.classList.add("card");
 
 // replaceChild sirve para modificar un elemento, es un metodo en deshuso
 //$cards.replaceChild($newCard, $cards.children[2]);
