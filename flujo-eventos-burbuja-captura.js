@@ -12,8 +12,8 @@ $divEventos.forEach((div) => {
     //para invertir la propagacion de burbuja a una propagaciòn de captura se deja en true
     // div.addEventListener("click", flujoEventos, true);
     //el tercer parametro tambièn acepta un objeto de entrada
-    div.addEventListener("click", flujoEventos, {
-        capture: true,
-        once: true,
-    });
+    // div.addEventListener("click", flujoEventos, {
+    //     capture: true,
+    //     once: true,
+    // });
 });
