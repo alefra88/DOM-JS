@@ -39,3 +39,19 @@
 .sepia {
     filter: sepia(1);
 }
+
+.evento-flujos div {
+    padding: 4rem;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.uno {
+    background-color: #f7fd1e;
+}
+.dos {
+    background-color: tan;
+}
+.tres {
+    background-color: gold;
+}
