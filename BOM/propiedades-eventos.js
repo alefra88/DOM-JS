@@ -26,3 +26,26 @@ document.addEventListener("DOMContentLoaded", (e) => {
     console.log(window.screenY);
     console.log(e);
 });
+
+//metodos del bom
+
+window.alert("alerta");
+window.confirm("confirmacion");
+window.prompt("aviso");
+
+const $btnAbrir = document.getElementById("abrir-ventana"),
+    $btnCerrar = document.getElementById("cerrar-ventana"),
+    $btnImprimir = document.getElementById("imprimir-ventaja");
+
+let ventana;
+
+$btnAbrir.addEventListener("click", (e) => {
+    ventana = window.open("https://github.com/alefra88");
+});
+$btnCerrar.addEventListener("click", (e) => {
+    // window.close();
+    ventana.close();
+});
+$btnImprimir.addEventListener("click", (e) => {
+    window.print();
+});
